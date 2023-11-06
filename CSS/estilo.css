@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navmenu{
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+
+}
+
+.navmenu ul{
+    list-style: none;
+    position: relative;
+    
+}
+
+.navmenu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+
+.navmenu ul li:hover ul{
+    visibility: visible;
+}
+
+.navmenu a:hover{
+    background-color: brown;
+}
+
+.navmenu ul ul li{
+    float: none;
+    border-bottom: solid 1px #ccc;
+
+}
+
+.navmenu ul ul li a{
+    background-color: #069;
+}
+
+
+
+.navmenu ul li{
+    width: 150px;
+    float: left;
+}
+
+.navmenu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000;   
+}
